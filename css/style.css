@@ -20,8 +20,8 @@ Generic
 }
 
 body{
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
     font-family: "Roboto", "Dosis", serif;
     background-color: #e3e4e4;
     font-size: 16px;
@@ -97,24 +97,83 @@ nav .navi:hover{
     background-image: url(../images/montagne.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 450px;
+}
+
+.hero .boite{
+    height: 119px;
+    width: 455px;
+    border-radius: 10px;
+    background-color: #000000;
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
 .hero .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 450px; 
 }
 
 .hero h4{
     margin: 0;
+    color: #FFFFFF;
+    font-family: "Dosis", serif;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .hero h2{
     margin: 0;
+    color: #2FCB48;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /*Section Contenu*/
+
+.contenu .groupe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+article{
+    background-color: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+}
+
+article img{
+    padding-bottom: 32px;
+}
+
+.contenu h3{
+   margin:0px;
+   font-size: 24px;
+   font-family: "Dosis", serif;
+   font-weight: bold;
+}
+
+.contenu p{
+   margin: 0px;
+   font-weight: 400;
+   font-family: "Roboto", serif;
+}
+
+.boutoncontenu{
+   margin:0px;
+   font-family: "Dosis", serif;
+   font-weight: bold;
+   font-size: 14px;
+   align-self: center;
+}
 
 /*Section Footer*/
 
