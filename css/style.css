@@ -150,6 +150,7 @@ article{
     flex-direction: column;
     background-color: #FFFFFF;
     padding: 10px 10px 10px 10px;
+    border-bottom: solid 5px #0E5EA1;
 }
 
 article img{
@@ -174,12 +175,48 @@ article img{
    font-family: "Roboto", serif;
 }
 
-.boutoncontenu{
+.bouton1{
    font-family: "Dosis", serif;
    font-weight: bold;
    font-size: 14px;
    align-self: center;
+   margin-bottom: 10px;
 }
+
+.bouton2{
+    font-family: "Dosis", serif;
+    font-weight: bold;
+    font-size: 14px;
+    align-self: center;
+    margin-top: 75px;
+    margin-bottom: 10px;
+ }
+
+ .bouton3{
+    font-family: "Dosis", serif;
+    font-weight: bold;
+    font-size: 14px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+
+ article a{
+    text-decoration: none;
+    background-color: #b7b7b7;
+    color: #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 5px;
+ }
+
+ article a:hover{
+    color: #FFFFFF;
+    background-color: #0E5EA1;
+    border-radius: 5px;
+ }
 
 /*Section Footer*/
 
