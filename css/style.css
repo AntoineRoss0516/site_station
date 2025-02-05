@@ -10,6 +10,10 @@ html{
     box-sizing:inherit;
 }
 
+/*----------------------------------------------------
+Generic
+----------------------------------------------------*/
+
 .wrapper{
     max-width: 1000px;
     margin:0 auto;
@@ -22,6 +26,96 @@ body{
     background-color: #e3e4e4;
     font-size: 16px;
 }
+
 /*----------------------------------------------------
-Generic
+Components
 ----------------------------------------------------*/
+
+/*Header*/
+
+header{
+    background-color: #FFFFFF;
+}
+
+nav h1{
+font-family: "Dosis", serif;
+font-size: 43.34px;
+font-weight: bold;
+color: #000000;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav .ul{
+    padding-top: 50px;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav .navi{
+    color: #000000;
+    font-family: "Dosis", serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav .navi:hover{
+    color: #FFFFFF;
+    background-color: #0E5EA1;
+    border-radius: 5px;
+}
+
+/*Section Hero*/
+
+.hero{
+    background-image: url(../images/montagne.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+}
+
+.hero .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h4{
+    margin: 0;
+}
+
+.hero h2{
+    margin: 0;
+}
+
+/*Section Contenu*/
+
+/*Section Footer*/
+
+/*Footer*/
